@@ -1,0 +1,293 @@
+[
+    {
+        "name": "Lemon Cherry Gelato",
+        "url": "https://www.leafly.com/strains/lemon-cherry-gelato",
+        "type": "Hybrid",
+        "thc": "THC 20%",
+        "akas": [],
+        "rating": 4.593085106382978,
+        "review_count": 752,
+        "top_effect": "Tingly",
+        "category": "Hybrid",
+        "image_path": "images/lemon_cherry_gelato.png",
+        "image_url": "https://images.leafly.com/flower-images/defaults/generic/strain-40.png?auto=compress%2Cformat&w=295&dpr=1",
+        "description": "Lemon Cherry Gelatois a extremely popularhybridweed strain with several alleged origins. It could just be Gelato bagseed, aka a betweenSunsetSherbetandGirl Scout Cookies. It can also be a type of Runtz, which is Gelato x Z. Now it is so popular, samples labeled 'LCG' surely include a broad range of Gelato, and Runtz varieties. Lemon Cherry Gelato is 20% THC, making this strain an ideal choice for experienced cannabis consumers. Leafly customers tell us Lemon Cherry Gelato effects includetingly,relaxed, andeuphoric. Medical marijuana patients often choose Lemon Cherry Gelato when dealing with symptoms associated withanxiety,pain, andstress. Bred by Backpackboyz, Lemon Cherry Gelato features an aroma oflime,berries,andcitruswith flavors oflemon, andsweetfruit. The dominant terpene of this strain iscaryophyllene. If you’ve smoked, dabbed, or consumed Lemon Cherry Gelato, tell us about your experience by leaving a strain review.Show moreHave feedback?suggest an edit",
+        "positive_effects": [
+            "Tingly",
+            "Relaxed",
+            "Giggly"
+        ],
+        "negative_effects": [
+            "Anxious",
+            "Headache",
+            "Dizzy"
+        ],
+        "flavors": [
+            "Lemon",
+            "Citrus",
+            "Sweet",
+            "Cherry"
+        ],
+        "detailed_terpenes": [
+            {
+                "name": "Caryophyllene",
+                "type": "",
+                "description": ""
+            },
+            {
+                "name": "Linalool",
+                "type": "",
+                "description": ""
+            },
+            {
+                "name": "Limonene",
+                "type": "",
+                "description": ""
+            }
+        ],
+        "helps_with": [
+            {
+                "condition": "Anxiety",
+                "percentage": 29
+            },
+            {
+                "condition": "Depression",
+                "percentage": 19
+            },
+            {
+                "condition": "Stress",
+                "percentage": 18
+            }
+        ],
+        "genetics": {
+            "parents": [
+                "Gsc",
+                "Sunset Sherbert"
+            ],
+            "children": [
+                "Red Velvet",
+                "Number 33"
+            ]
+        },
+        "grow_info": {
+            "notes": "Those growing Lemon Cherry Gelato with standard or feminized seeds should expect to pay$10-15per seed. Growing Lemon Cherry Gelato with standard or feminized seeds is considered to behardand produces amedium yield. The healthiest Lemon Cherry Gelato plants will grow to beshort to medium, especially when grown insoil. Flowering time for Lemon Cherry Gelato is8-9 weeks. With all of this said, if you’re growing Lemon Cherry Gelato withauto-flowering seeds, you can expect the process to look slightly different. Auto-flowering seeds will flower automatically regardless of the light cycle, and will usually be ready to harvest in8-9 weeksfrom seed."
+        }
+    },
+    {
+        "name": "Blue Dream",
+        "url": "https://www.leafly.com/strains/blue-dream",
+        "type": "Hybrid",
+        "thc": "THC 21%",
+        "akas": [],
+        "rating": 4.338194585105665,
+        "review_count": 14811,
+        "top_effect": "Creative",
+        "category": "Hybrid",
+        "image_path": "images/blue_dream.png",
+        "image_url": "https://images.leafly.com/flower-images/blue-dream.png?auto=compress%2Cformat&w=295&dpr=1",
+        "description": "Blue Dream is a sativa-dominant hybrid marijuana strain made by crossing Blueberry with Haze. This strain produces a balanced high, along with effects such as cerebral stimulation and full-body relaxation. Blue Dream can be more than 20% THC but has a low CBD percentage, making this potent strain a fan favorite of both novice and veteran cannabis consumers. In terms of flavor, Blue Dream is reported to smell and taste like sweetberries. Medical marijuana patients often use Blue Dream to treat symptoms of stress, anxiety and depression.\n\nBlue Dream originated in California and has since achieved legendary status among West Coast strains and has quickly become one of the most-searched-for strains. The average price per gram of Blue Dream is $20. Strains similar to Blue Dream include Blue Dream CBD, Double Dream, and Blue Magoo.",
+        "positive_effects": [
+            "Creative",
+            "Euphoric",
+            "Uplifted"
+        ],
+        "negative_effects": [
+            "Dry Mouth",
+            "Dry Eyes",
+            "Dizzy"
+        ],
+        "flavors": [
+            "Berry",
+            "Sweet"
+        ],
+        "detailed_terpenes": [
+            {
+                "name": "Myrcene",
+                "type": "",
+                "description": ""
+            },
+            {
+                "name": "Pinene",
+                "type": "",
+                "description": ""
+            },
+            {
+                "name": "Caryophyllene",
+                "type": "",
+                "description": ""
+            }
+        ],
+        "helps_with": [
+            {
+                "condition": "Stress",
+                "percentage": 37
+            },
+            {
+                "condition": "Anxiety",
+                "percentage": 31
+            },
+            {
+                "condition": "Depression",
+                "percentage": 28
+            }
+        ],
+        "genetics": {
+            "parents": [
+                "Blueberry",
+                "Haze"
+            ],
+            "children": [
+                "Pinnacle",
+                "Blueberry Pie"
+            ]
+        },
+        "grow_info": {
+            "notes": "Well suited for sea of green (SOG)Average flowering time of 67 daysYields typically reach up to 430g/m²Can exhibit different indica and sativaphenotypesKnown to be susceptible to powdery mildew and spider mitesCan stretch when flowering"
+        }
+    },
+    {
+        "name": "Wedding Cake",
+        "url": "https://www.leafly.com/strains/wedding-cake",
+        "type": "Hybrid",
+        "thc": "THC 24%",
+        "akas": [
+            "Triangle Mints #23",
+            "Pink Cookies"
+        ],
+        "rating": 4.553401748384645,
+        "review_count": 2631,
+        "top_effect": "Relaxed",
+        "category": "Hybrid",
+        "image_path": "images/wedding_cake.jpg",
+        "image_url": "https://leafly-public.imgix.net/strains/photos/m2y50HYRBu0dHY4JSdSx_wedding-cake_jman.jpg?auto=compress%2Cformat&w=295&dpr=1",
+        "description": "Wedding Cake, also known as \"Triangle Mints #23,\" is a potent type ofindica-hybrid marijuana strainmade by crossingTriangle KushwithAnimal Mints. Fun fact: In Canada, this strain is known asPink Cookies. The Wedding Cake strain providesrelaxingandeuphoric effectsthat calm the body and mind. This strain yields a rich and tangy flavor profile with undertones ofearthy pepper. Medical marijuana patients choose Wedding Cake to help relieve symptoms associated withpain,insomniaandappetite loss. Consumers with a low THC tolerance should enjoy this strain with an extra slice of care due to its high THC content. Wedding Cake has soared in popularity over the years and was namedLeafly Strain of the Yearin 2019.Show moreHave feedback?suggest an edit",
+        "positive_effects": [
+            "Relaxed",
+            "Aroused",
+            "Hungry"
+        ],
+        "negative_effects": [
+            "Anxious",
+            "Dry Mouth",
+            "Dizzy"
+        ],
+        "flavors": [
+            "Pepper",
+            "Earthy",
+            "Mint"
+        ],
+        "detailed_terpenes": [
+            {
+                "name": "Caryophyllene",
+                "type": "",
+                "description": ""
+            },
+            {
+                "name": "Limonene",
+                "type": "",
+                "description": ""
+            },
+            {
+                "name": "Myrcene",
+                "type": "",
+                "description": ""
+            }
+        ],
+        "helps_with": [
+            {
+                "condition": "Anxiety",
+                "percentage": 23
+            },
+            {
+                "condition": "Stress",
+                "percentage": 21
+            },
+            {
+                "condition": "Depression",
+                "percentage": 18
+            }
+        ],
+        "genetics": {
+            "parents": [
+                "Animal Mints",
+                "Triangle Mints"
+            ],
+            "children": [
+                "Ice Cream Cake",
+                "La Kush Cake"
+            ]
+        },
+        "grow_info": {
+            "notes": "Wedding Cake is a popular strain choice for both intermediate and advanced growers.Can be grown indoors and outdoorsFlowering time of 7-9 weeksWhen grown outside, Wedding Cake will finish between September through OctoberAverage yieldsOrder wedding cakeseedsandclones"
+        }
+    },
+    {
+        "name": "Permanent Marker",
+        "url": "https://www.leafly.com/strains/permanent-marker",
+        "type": "Hybrid",
+        "thc": "THC 25%",
+        "akas": [],
+        "rating": 4.626262626262626,
+        "review_count": 297,
+        "top_effect": "Tingly",
+        "category": "Hybrid",
+        "image_path": "images/permanent_marker.png",
+        "image_url": "https://leafly-public.imgix.net/strains/photos/aMsjhhOYQualXxE7TqQt_LEF-STOY2023-StrainPDP-1080x1080.png?auto=compress%2Cformat&w=295&dpr=1",
+        "description": "Permanent Markeris a modern cannabis strain and is Leafly Strain of the Year 2023! Los Angeles indie brand Doja Exclusive released the Permanent Marker weed strain in 2022 on both coasts. Bred and grown by Seed Junky Genetics’ JBeezy and selected by Doja Pak, the strain fuses several well-established cultivars: (Biscottix Sherb Bx) xJealousy. It can smell like a permanent marker. Others note its floral, soapy, candy, and gassy funk that fully translate into the taste. It has a lingering, pungent flavor of a soapy funk with a hint of candy and floral gas tones. The potent strain smells amazing, and can support creativity or relaxation day and night. Just be careful—it's strong.Show moreHave feedback?suggest an edit",
+        "positive_effects": [
+            "Tingly",
+            "Relaxed",
+            "Euphoric"
+        ],
+        "negative_effects": [
+            "Anxious",
+            "Headache",
+            "Dry Eyes"
+        ],
+        "flavors": [
+            "Floral"
+        ],
+        "detailed_terpenes": [
+            {
+                "name": "Myrcene",
+                "type": "",
+                "description": ""
+            },
+            {
+                "name": "Limonene",
+                "type": "",
+                "description": ""
+            },
+            {
+                "name": "Caryophyllene",
+                "type": "",
+                "description": ""
+            }
+        ],
+        "helps_with": [
+            {
+                "condition": "Anxiety",
+                "percentage": 22
+            },
+            {
+                "condition": "Stress",
+                "percentage": 16
+            },
+            {
+                "condition": "Depression",
+                "percentage": 15
+            }
+        ],
+        "genetics": {
+            "parents": [
+                "Biscotti",
+                "Jealousy"
+            ],
+            "children": [
+                "Magic Marker",
+                "Bubblegum Marker"
+            ]
+        },
+        "grow_info": {}
+    }
+]

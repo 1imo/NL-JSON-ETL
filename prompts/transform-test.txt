@@ -1,0 +1,21 @@
+Remove these kv pairs: rating, review_count, top_effect, category, image_path, image_url, negative_effects, url
+
+Transform / flatten detailed_terpenes into an array of just name values. helps_with is flattened array of conition values.
+
+parents and children key array values should be brought out of genetics into 1st order object chilren and genetics removed
+
+thc value should be just the number with a percentage sign following.
+
+change detailed_terpenes key to terpenes please.
+
+Read though the objects provide, ensure spelling of keys and values is in british english please. Adjust any that need. Further ammend spelling, punctuation and grammar. If there are brackets ensure that there is one space on either internal side of the brackets like this ( foo ) and if a full stop or other punctuation proceeds a closing bracket immediately as such ( bar ) . include a space after the closing bracket.
+
+If there is a hyphen ensure that there is a spce on either side of the hyphen.
+
+You will find description and notes keys in objects, create keys short_, medium_, and long_ for example short_description and medium_notes. Base them on the original description and notes values, then omit the description and notes original kv pairs.
+
+short_* <= 100 chars
+medium_* <= 250 chars
+long_* <= 450 chars
+
+*_notes should also become first order object keys an not children of grow_info object thank you :)
