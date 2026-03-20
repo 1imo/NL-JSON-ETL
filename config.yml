@@ -1,9 +1,9 @@
 #
 # Configuration for main.ps1
-# All keys below are required. Script throws if config.yml is missing or any key is absent.
+# Most keys below are required. Script throws if config.yml is missing or any required key is absent.
 #
 
-MAX_RETRIES: 5
+MAX_RETRIES: 60
 MAX_BATCH_FAILURES: 3
 REQUEST_TIMEOUT_SECONDS: 60
 INITIAL_BACKOFF_SECONDS: 2
@@ -12,10 +12,15 @@ MAX_REQUEST_BYTES: 800000
 # OpenAI Chat Completions endpoint (kept as a generic API_ENDPOINT variable)
 API_ENDPOINT: https://api.openai.com/v1/chat/completions
 
-DEFAULT_BATCH_SIZE: 10
+DEFAULT_BATCH_SIZE: 3
+
+# If > 0, process only the first N batches and then exit.
+# Useful to quickly test system prompts without running the whole dataset.
+# Set to 0 (or leave empty) for normal full runs.
+TEST_BATCHES: 0
 
 # OpenAI model to use for transformations
 MODEL_NAME: gpt-4.1-mini
 
 # API key used for authentication
-API_KEY: your-api-key-goes-here
+API_KEY: sk-proj-key

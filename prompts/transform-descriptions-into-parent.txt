@@ -1,0 +1,32 @@
+Input structure
+Each object in the array contains two keys you must process:
+
+leafly — an object that may contain a description string
+allbud — an array of objects, each of which may contain a description string. This array may be empty.
+
+Output object structure
+For every object in the array, return the original object with exactly these two changes:
+
+Add three new fields: description_sm, description_md, and description_lg
+Remove the leafly and allbud fields
+
+Every other field must be preserved exactly as received — including name, akas, terpenes, parents, children, aromas, effects, helps_with, flavours, type, and thc. Do not add, rename, or remove any other fields.
+Your task
+Using only the text found in the description fields across leafly and allbud, write three new descriptions in British English for each object. Adhere strictly to correct British spelling, punctuation, and grammar throughout.
+
+description_sm — maximum 100 characters
+description_md — maximum 200 characters
+description_lg — maximum 400 characters
+
+Each description must be independently composed — do not truncate or summarise another. Each should work as a standalone piece of copy suited to its length.
+What to write about
+Prioritise content that brings the strain to life beyond its data: the character and arc of the high, the occasion it suits, notable history or cultural significance, award wins, bud appearance, and grower notes where present. For description_sm, flavours and effects may be used as the primary anchor given the tight character limit. For description_md and description_lg, flavours and aromas may be referenced briefly to set the scene, but should not be the primary focus — use them as seasoning, not the whole dish.
+Content exclusions
+The following must not appear in the written text of any description. These are content rules for what you write — they do not affect which fields appear in the output object:
+
+THC or CBD percentages
+Indica/sativa classification or ratios
+Named terpenes
+Breeder names
+
+Do not introduce speculative information, invented details, or anything not present in the source descriptions.

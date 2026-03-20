@@ -77,26 +77,42 @@ foreach ($key in $RequiredKeys) {
     }
 }
 
-$MAX_RETRIES              = [int]$Config["MAX_RETRIES"]
-$MAX_BATCH_FAILURES       = [int]$Config["MAX_BATCH_FAILURES"]
-$REQUEST_TIMEOUT_SECONDS  = [int]$Config["REQUEST_TIMEOUT_SECONDS"]
-$INITIAL_BACKOFF_SECONDS  = [int]$Config["INITIAL_BACKOFF_SECONDS"]
-$MAX_REQUEST_BYTES        = [int]$Config["MAX_REQUEST_BYTES"]
-$API_ENDPOINT             = [string]$Config["API_ENDPOINT"]
-$DEFAULT_BATCH_SIZE       = [int]$Config["DEFAULT_BATCH_SIZE"]
-$MODEL_NAME               = [string]$Config["MODEL_NAME"]
-$ApiKey                   = [string]$Config["API_KEY"]
+$MAX_RETRIES = [int]$Config["MAX_RETRIES"]
+$MAX_BATCH_FAILURES = [int]$Config["MAX_BATCH_FAILURES"]
+$REQUEST_TIMEOUT_SECONDS = [int]$Config["REQUEST_TIMEOUT_SECONDS"]
+$INITIAL_BACKOFF_SECONDS = [int]$Config["INITIAL_BACKOFF_SECONDS"]
+$MAX_REQUEST_BYTES = [int]$Config["MAX_REQUEST_BYTES"]
+$API_ENDPOINT = [string]$Config["API_ENDPOINT"]
+$DEFAULT_BATCH_SIZE = [int]$Config["DEFAULT_BATCH_SIZE"]
+$MODEL_NAME = [string]$Config["MODEL_NAME"]
+$ApiKey = [string]$Config["API_KEY"]
+
+# Optional test mode:
+# - If > 0, process only the first N batches and exit early.
+# - If 0 or empty, run normally for all batches.
+$TestBatches = 0
+if ($Config.ContainsKey("TEST_BATCHES")) {
+    $tb = $Config["TEST_BATCHES"]
+    if ([string]::IsNullOrWhiteSpace([string]$tb)) {
+        $TestBatches = 0
+    }
+    else {
+        $TestBatches = [int]$tb
+        if ($TestBatches -lt 0) {
+            throw "TEST_BATCHES must be >= 0."
+        }
+    }
+}
 # Directories
-$InputDirectory  = Join-Path $PSScriptRoot "input"
+$InputDirectory = Join-Path $PSScriptRoot "input"
 $OutputDirectory = Join-Path $PSScriptRoot "output"
 $PromptsDirectory = Join-Path $PSScriptRoot "prompts"
 
 # Output / checkpoint paths are set later once the input file is known
 $OutputJsonlPath = $null
-$CheckpointPath  = $null
+$CheckpointPath = $null
 
 # API key from config.yml
-
 
 # Built-in internal system prompt (sourced from prompts/default.txt)
 $DefaultInternalPromptPath = Join-Path $PromptsDirectory "default.txt"
@@ -402,7 +418,7 @@ function Invoke-AIRequest {
     }
 
     if (-not ($parsed.PSObject.Properties.Name -contains "task_id" -and
-              $parsed.PSObject.Properties.Name -contains "objects")) {
+            $parsed.PSObject.Properties.Name -contains "objects")) {
         throw "AI response JSON does not contain required 'task_id' and 'objects' properties."
     }
 
@@ -416,7 +432,7 @@ function Invoke-AIRequest {
     }
 
     # Ensure returned object count matches batch
-    $inputCount  = ($BatchObjects | Measure-Object).Count
+    $inputCount = ($BatchObjects | Measure-Object).Count
     $outputCount = ($objects | Measure-Object).Count
     if ($inputCount -ne $outputCount) {
         throw "AI response object count ($outputCount) does not match input batch size ($inputCount)."
@@ -432,7 +448,7 @@ function Retry-WithExponentialBackoff {
     )
 
     $attempt = 0
-    $delay   = $INITIAL_BACKOFF_SECONDS
+    $delay = $INITIAL_BACKOFF_SECONDS
 
     while ($true) {
         $attempt++
@@ -538,7 +554,10 @@ function Process-Batches {
         [System.Collections.IEnumerable]$JsonArray,
         [int]$BatchSize,
         [string]$UserPrompt,
-        [string]$FinalOutputFileName
+        [string]$FinalOutputFileName,
+        [int]$TestBatches,
+        [string]$OutputJsonlPath,
+        [string]$CheckpointPath
     )
 
     $items = @()
@@ -564,26 +583,34 @@ function Process-Batches {
 
     # Checkpoint / resume
     $startAfterBatchNumber = 0
-    $checkpoint = Load-Checkpoint -CheckpointPath $CheckpointPath
-    if ($checkpoint -and (Test-Path -LiteralPath $OutputJsonlPath)) {
-        Write-LogInfo "Checkpoint found. Last completed batch: $($checkpoint.lastBatchCompleted)"
-        $resumeChoice = Read-Host "Resume from checkpoint? (y/n)"
-        if ($resumeChoice -eq "y") {
-            $startAfterBatchNumber = [int]$checkpoint.lastBatchCompleted
-            Write-LogInfo "Resuming after batch $startAfterBatchNumber."
+    if ($TestBatches -gt 0) {
+        # Test mode: don't resume from previous runs; start fresh.
+        Remove-Item -LiteralPath $CheckpointPath -ErrorAction SilentlyContinue
+        Remove-Item -LiteralPath $OutputJsonlPath -ErrorAction SilentlyContinue
+    }
+    else {
+        $checkpoint = Load-Checkpoint -CheckpointPath $CheckpointPath
+        if ($checkpoint -and (Test-Path -LiteralPath $OutputJsonlPath)) {
+            Write-LogInfo "Checkpoint found. Last completed batch: $($checkpoint.lastBatchCompleted)"
+            $resumeChoice = Read-Host "Resume from checkpoint? (y/n)"
+            if ($resumeChoice -eq "y") {
+                $startAfterBatchNumber = [int]$checkpoint.lastBatchCompleted
+                Write-LogInfo "Resuming after batch $startAfterBatchNumber."
+            }
+            else {
+                Remove-Item -LiteralPath $CheckpointPath -ErrorAction SilentlyContinue
+                Remove-Item -LiteralPath $OutputJsonlPath -ErrorAction SilentlyContinue
+            }
         }
         else {
             Remove-Item -LiteralPath $CheckpointPath -ErrorAction SilentlyContinue
             Remove-Item -LiteralPath $OutputJsonlPath -ErrorAction SilentlyContinue
         }
     }
-    else {
-        Remove-Item -LiteralPath $CheckpointPath -ErrorAction SilentlyContinue
-        Remove-Item -LiteralPath $OutputJsonlPath -ErrorAction SilentlyContinue
-    }
 
     $failedBatches = 0
     $processedObjects = 0
+    $processedBatchesThisRun = 0
 
     $totalBatches = [int][Math]::Ceiling($totalObjects / $BatchSize)
 
@@ -597,7 +624,7 @@ function Process-Batches {
         $batch = $items[$startIndex..($startIndex + $count - 1)]
 
         $displayStart = $processedObjects + 1
-        $displayEnd   = $processedObjects + $count
+        $displayEnd = $processedObjects + $count
         Write-LogInfo "Processing batch $batchNumber/$totalBatches (objects $displayStart–$displayEnd)"
 
         $taskId = "batch_$batchNumber"
@@ -627,6 +654,12 @@ function Process-Batches {
         $processedObjects += $count
 
         Save-Checkpoint -CheckpointPath $CheckpointPath -LastBatchCompleted $batchNumber -TotalBatches $totalBatches
+
+        $processedBatchesThisRun++
+        if ($TestBatches -gt 0 -and $processedBatchesThisRun -ge $TestBatches) {
+            Write-LogInfo "TEST_BATCHES limit reached ($TestBatches batches). Exiting early."
+            break
+        }
 
         Write-LogInfo "Batch $batchNumber/$totalBatches completed (processed $count objects). Progress: $processedObjects/$totalObjects objects."
     }
@@ -687,11 +720,10 @@ function Main {
         $InputJsonPath = $chosenInput.FullName
     }
 
-    # Derive per-run output paths based on chosen input file name
+    # Derive per-run output paths based on chosen input file name (also used by checkpointing)
     $inputFileName = [System.IO.Path]::GetFileName($InputJsonPath)
     $OutputJsonlPath = Join-Path $OutputDirectory ("{0}.jsonl" -f $inputFileName)
     $CheckpointPath  = Join-Path $OutputDirectory ("{0}.checkpoint.json" -f $inputFileName)
-
     # Load and validate JSON (full array in memory)
     $jsonArray = Validate-JsonFile -Path $InputJsonPath
 
@@ -715,13 +747,10 @@ function Main {
     # Get user system prompt (or empty)
     $userPrompt = Get-SystemPrompt -SystemPromptFilePath $SystemPromptFilePath
 
-    Process-Batches -JsonArray $jsonArray -BatchSize $BatchSize -UserPrompt $userPrompt -FinalOutputFileName $inputFileName
+    Process-Batches -JsonArray $jsonArray -BatchSize $BatchSize -UserPrompt $userPrompt -FinalOutputFileName $inputFileName -TestBatches $TestBatches -OutputJsonlPath $OutputJsonlPath -CheckpointPath $CheckpointPath
 }
 
-try {
-    Main
-}
-catch {
+try { Main } catch {
     Write-LogError "Fatal error: $($_.Exception.Message)"
     exit 1
 }

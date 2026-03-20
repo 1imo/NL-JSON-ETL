@@ -38,7 +38,7 @@ The script runs locally; it does not install any external PowerShell modules.
 
 ### Configuration ( `config.yml` )
 
-`config.yml` lives next to `main.ps1`. All keys below are required. If the file is missing or any key is absent, the script will exit with an error.
+`config.yml` lives next to `main.ps1`. Most keys are required. If the file is missing or any required key is absent, the script will exit with an error.
 
 Example:
 
@@ -54,6 +54,10 @@ API_ENDPOINT: https://api.openai.com/v1/chat/completions
 
 DEFAULT_BATCH_SIZE: 10
 
+# Optional test mode: if > 0, only process the first N batches and then exit.
+# Set to 0 (or leave empty) for normal full runs.
+TEST_BATCHES: 0
+
 # Model identifier used by the API
 MODEL_NAME: gpt-4.1-mini
 
@@ -68,6 +72,12 @@ Meaning of keys:
   - `MAX_BATCH_FAILURES`: stop completely after this many failed batches.
   - `REQUEST_TIMEOUT_SECONDS`: HTTP request timeout.
   - `INITIAL_BACKOFF_SECONDS`: starting delay for exponential backoff.
+
+- **Testing**
+  - `TEST_BATCHES` (optional):
+    - `0` or empty: run all batches (default behavior).
+    - `> 0`: process only the first N batches, then exit early.
+    - In test mode, the script ignores any existing checkpoint/output for that input and starts fresh from batch 1.
 
 - **Payload limits**
   - `MAX_REQUEST_BYTES`: soft limit on request size ( in bytes ). Larger payloads cause the script to fail fast and ask you to lower batch size.

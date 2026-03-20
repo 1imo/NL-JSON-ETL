@@ -1,29 +1,13 @@
 [
   {
     "name": "Lemon Cherry Gelato",
-    "type": "Hybrid",
-    "thc": "20%",
-    "akas": [],
-    "positive_effects": [
-      "Tingly",
-      "Relaxed",
-      "Giggly"
-    ],
-    "flavours": [
-      "Lemon",
-      "Citrus",
-      "Sweet",
-      "Cherry"
+    "akas": [
+      "Lemon Cherry Gelato"
     ],
     "terpenes": [
       "Caryophyllene",
       "Linalool",
       "Limonene"
-    ],
-    "helps_with": [
-      "Anxiety",
-      "Depression",
-      "Stress"
     ],
     "parents": [
       "Gsc",
@@ -33,36 +17,52 @@
       "Red Velvet",
       "Number 33"
     ],
-    "short_description": "Lemon Cherry Gelato is an extremely popular hybrid weed strain with several alleged origins.",
-    "medium_description": "Lemon Cherry Gelato is an extremely popular hybrid weed strain with several alleged origins. It could just be Gelato bagseed, a cross between Sunset Sherbert and Girl Scout Cookies. It can also be a type of Runtz, which is Gelato x Z. Now it is so popular, samples labelled 'LCG' include a broad range of Gelato and Runtz varieties.",
-    "long_description": "Lemon Cherry Gelato is an extremely popular hybrid weed strain with several alleged origins. It could just be Gelato bagseed, a cross between Sunset Sherbert and Girl Scout Cookies. It can also be a type of Runtz, which is Gelato x Z. Now it is so popular, samples labelled 'LCG' surely include a broad range of Gelato and Runtz varieties. Lemon Cherry Gelato is 20% THC, making this strain an ideal choice for experienced cannabis consumers. Customers report effects including tingly, relaxed, and euphoric. Medical marijuana patients often choose Lemon Cherry Gelato when dealing with symptoms associated with anxiety, pain, and stress. Bred by Backpackboyz, it features an aroma of lime, berries, and citrus with flavours of lemon and sweet fruit. The dominant terpene of this strain is caryophyllene.",
-    "short_notes": "Those growing Lemon Cherry Gelato with standard or feminised seeds should expect to pay $10 - 15 per seed.",
-    "medium_notes": "Growing Lemon Cherry Gelato with standard or feminised seeds is considered to be hard and produces a medium yield. The healthiest plants will grow to be short to medium, especially when grown in soil. Flowering time is 8 - 9 weeks.",
-    "long_notes": "Those growing Lemon Cherry Gelato with standard or feminised seeds should expect to pay $10 - 15 per seed. Growing Lemon Cherry Gelato with standard or feminised seeds is considered to be hard and produces a medium yield. The healthiest plants will grow to be short to medium, especially when grown in soil. Flowering time is 8 - 9 weeks. When growing with auto-flowering seeds, the process differs slightly: auto-flowering seeds flower automatically regardless of the light cycle and are usually ready to harvest in 8 - 9 weeks from seed."
+    "aromas": [
+      "Citrus",
+      "Earthy",
+      "Pine",
+      "Sour",
+      "Tropical",
+      "Woody"
+    ],
+    "effects": [
+      "Tingly",
+      "Relaxed",
+      "Giggly",
+      "Happy",
+      "Relaxing",
+      "Sociable",
+      "Uplifting"
+    ],
+    "helps_with": [
+      "Anxiety",
+      "Chronic Pain",
+      "Depression",
+      "Stress"
+    ],
+    "flavours": [
+      "Fruity",
+      "Pine",
+      "Sour",
+      "Sweet",
+      "Tropical",
+      "Woody"
+    ],
+    "type": "Hybrid",
+    "thc": 21.0,
+    "description_sm": "Tingly and relaxed effects with sweet, sour, and fruity flavours.",
+    "description_md": "Lemon Cherry Gelato offers a soothing, relaxed experience with an uplifting and giggly mood, complemented by its sweet citrus and fruity aromas.",
+    "description_lg": "Lemon Cherry Gelato is a popular hybrid strain with a relaxing and euphoric high that eases anxiety, pain, and stress. Its flavour profile features sweet lemon, berries, and tropical fruit with earthy and pine undertones. Buds are dense forest green with amber hairs and crystalline trichomes, providing a pleasurable experience from uplifted moods to full-body relaxation."
   },
   {
     "name": "Blue Dream",
-    "type": "Hybrid",
-    "thc": "21%",
-    "akas": [],
-    "positive_effects": [
-      "Creative",
-      "Euphoric",
-      "Uplifted"
-    ],
-    "flavours": [
-      "Berry",
-      "Sweet"
+    "akas": [
+      "Blue Dream"
     ],
     "terpenes": [
       "Myrcene",
       "Pinene",
       "Caryophyllene"
-    ],
-    "helps_with": [
-      "Stress",
-      "Anxiety",
-      "Depression"
     ],
     "parents": [
       "Blueberry",
@@ -72,89 +72,663 @@
       "Pinnacle",
       "Blueberry Pie"
     ],
-    "short_description": "Blue Dream is a sativa - dominant hybrid marijuana strain made by crossing Blueberry with Haze.",
-    "medium_description": "Blue Dream is a sativa - dominant hybrid marijuana strain made by crossing Blueberry with Haze. This strain produces a balanced high, with effects such as cerebral stimulation and full - body relaxation. Blue Dream can be more than 20% THC but has a low CBD percentage.",
-    "long_description": "Blue Dream is a sativa - dominant hybrid marijuana strain made by crossing Blueberry with Haze. This strain produces a balanced high, with effects such as cerebral stimulation and full - body relaxation. Blue Dream can be more than 20% THC but has a low CBD percentage, making this potent strain a fan favourite of both novice and veteran cannabis consumers. In terms of flavour, Blue Dream is reported to smell and taste like sweet berries. Medical marijuana patients often use Blue Dream to treat symptoms of stress, anxiety, and depression. Blue Dream originated in California and has since achieved legendary status among West Coast strains and quickly become one of the most searched - for strains. The average price per gram is $20. Similar strains include Blue Dream CBD, Double Dream, and Blue Magoo.",
-    "short_notes": "Well suited for sea of green ( SOG )",
-    "medium_notes": "Average flowering time of 67 days. Yields typically reach up to 430 g/m². Can exhibit different indica and sativa phenotypes.",
-    "long_notes": "Well suited for sea of green ( SOG ). Average flowering time of 67 days. Yields typically reach up to 430 g/m². Can exhibit different indica and sativa phenotypes. Known to be susceptible to powdery mildew and spider mites. Can stretch when flowering."
+    "aromas": [
+      "Earthy",
+      "Fruity",
+      "Sweet",
+      "Vanilla"
+    ],
+    "effects": [
+      "Creative",
+      "Euphoric",
+      "Uplifted",
+      "Euphoria",
+      "Happy"
+    ],
+    "helps_with": [
+      "ADD/ADHD",
+      "Anxiety",
+      "Bipolar Disorder",
+      "Chronic Pain",
+      "Depression",
+      "Headaches",
+      "Inflammation",
+      "Nausea",
+      "PTSD",
+      "Stress"
+    ],
+    "flavours": [
+      "Berry",
+      "Blueberry",
+      "Fruity",
+      "Herbal",
+      "Sweet",
+      "Vanilla"
+    ],
+    "type": "Hybrid",
+    "thc": 31.0,
+    "description_sm": "Sweet berry flavours and a euphoric, creative head high.",
+    "description_md": "Blue Dream delivers an uplifting cerebral high paired with mellow body relaxation, featuring sweet blueberry and vanilla flavours that linger delightfully.",
+    "description_lg": "Blue Dream, a renowned hybrid from California, offers an immediate uplifting cerebral high that fuels creativity and motivation, balanced by a soothing body relaxation. Its aroma combines sweet blueberry pie with vanilla, and the flavour maintains a sugary sweetness. The dense, bright green nugs with blue hues are coated in a fine layer of white trichomes, providing a rich sensory experience suitable for relieving stress and pain."
   },
   {
     "name": "Wedding Cake",
-    "type": "Hybrid",
-    "thc": "24 %",
     "akas": [
-      "Triangle Mints #23",
-      "Pink Cookies"
-    ],
-    "positive_effects": [
-      "Relaxed",
-      "Aroused",
-      "Hungry"
-    ],
-    "flavours": [
-      "Pepper",
-      "Earthy",
-      "Mint"
+      "Triangle Mints # 23",
+      "Pink Cookies",
+      "Wedding Cake"
     ],
     "terpenes": [
       "Caryophyllene",
       "Limonene",
       "Myrcene"
     ],
-    "helps_with": [
-      "Anxiety",
-      "Stress",
-      "Depression"
+    "parents": [
+      "Animal Mints",
+      "Triangle Mints"
     ],
     "children": [
       "Ice Cream Cake",
       "La Kush Cake"
     ],
-    "parents": [
-      "Animal Mints",
-      "Triangle Mints"
+    "aromas": [
+      "Sweet",
+      "Earthy",
+      "Nutty",
+      "Spicy",
+      "Vanilla"
     ],
-    "short_description": "Wedding Cake, also known as \"Triangle Mints #23,\" is a potent indica - hybrid strain.",
-    "medium_description": "Wedding Cake, also known as \"Triangle Mints #23,\" is a potent type of indica - hybrid marijuana strain made by crossing Triangle Kush with Animal Mints. Known in Canada as Pink Cookies. It provides relaxing and euphoric effects that calm the body and mind.",
-    "long_description": "Wedding Cake, also known as \"Triangle Mints #23,\" is a potent type of indica - hybrid marijuana strain made by crossing Triangle Kush with Animal Mints. Fun fact: In Canada, this strain is known as Pink Cookies. The Wedding Cake strain provides relaxing and euphoric effects that calm the body and mind. This strain yields a rich and tangy flavour profile with undertones of earthy pepper. Medical marijuana patients choose Wedding Cake to help relieve symptoms associated with pain, insomnia and appetite loss. Consumers with a low THC tolerance should enjoy this strain with extra care due to its high THC content. Wedding Cake has soared in popularity over the years and was named Leafly Strain of the Year in 2019.",
-    "short_notes": "Wedding Cake is a popular strain choice for intermediate and advanced growers.",
-    "medium_notes": "Wedding Cake is a popular strain choice for both intermediate and advanced growers. Can be grown indoors and outdoors. Flowering time of 7 - 9 weeks. When grown outside, Wedding Cake will finish between September through October. Average yields.",
-    "long_notes": "Wedding Cake is a popular strain choice for both intermediate and advanced growers. Can be grown indoors and outdoors. Flowering time of 7 - 9 weeks. When grown outside, Wedding Cake will finish between September through October. Average yields. Order Wedding Cake seeds and clones."
+    "effects": [
+      "Relaxed",
+      "Aroused",
+      "Hungry",
+      "Creative",
+      "Euphoria",
+      "Relaxing",
+      "Sleepy",
+      "Body High",
+      "Happy",
+      "Uplifting"
+    ],
+    "helps_with": [
+      "Chronic Pain",
+      "Depression",
+      "Fibromyalgia",
+      "Insomnia",
+      "Loss of Appetite",
+      "Multiple Sclerosis",
+      "Nausea",
+      "Stress"
+    ],
+    "flavours": [
+      "Berry",
+      "Fruity",
+      "Sweet",
+      "Creamy",
+      "Herbal",
+      "Nutty",
+      "Peppery",
+      "Spicy",
+      "Vanilla"
+    ],
+    "type": "Hybrid",
+    "thc": 16.5,
+    "description_sm": "Sweet, creamy flavour with relaxing, euphoric and happy effects.",
+    "description_md": "Wedding Cake offers a rich, tangy flavour with peppery and vanilla notes, providing a relaxing and euphoric high ideal for calming the mind and body.",
+    "description_lg": "Wedding Cake, also known as Triangle Mints #23 and Pink Cookies, is celebrated for its potent relaxing effects that soothe the body and mind. This strain features dense, frosty buds with dark green leaves and vibrant orange hairs. Its flavour is a delightful blend of sweet, creamy cherry pie with spicy, peppery undertones and vanilla notes. Hailed as Leafly's Strain of the Year in 2019, Wedding Cake is prized by medical users for relief from chronic pain, insomnia, and appetite loss."
   },
   {
     "name": "Permanent Marker",
-    "type": "Hybrid",
-    "thc": "25 %",
-    "akas": [],
-    "positive_effects": [
-      "Tingly",
-      "Relaxed",
-      "Euphoric"
-    ],
-    "flavours": [
-      "Floral"
+    "akas": [
+      "Permanent Marker"
     ],
     "terpenes": [
       "Myrcene",
       "Limonene",
       "Caryophyllene"
     ],
-    "helps_with": [
-      "Anxiety",
-      "Stress",
-      "Depression"
+    "parents": [
+      "Biscotti",
+      "Jealousy"
     ],
     "children": [
       "Magic Marker",
       "Bubblegum Marker"
     ],
-    "parents": [
-      "Biscotti",
-      "Jealousy"
+    "aromas": [
+      "Citrus",
+      "Diesel",
+      "Flowery",
+      "Gas",
+      "Pungent",
+      "Sour"
     ],
-    "short_description": "Permanent Marker is a modern cannabis strain and Leafly Strain of the Year 2023.",
-    "medium_description": "Permanent Marker is a modern cannabis strain and Leafly Strain of the Year 2023. Los Angeles indie brand Doja Exclusive released it in 2022 on both coasts. Bred and grown by Seed Junky Genetics’ JBeezy and selected by Doja Pak, it fuses several well-established cultivars.",
-    "long_description": "Permanent Marker is a modern cannabis strain and Leafly Strain of the Year 2023. Los Angeles indie brand Doja Exclusive released the Permanent Marker weed strain in 2022 on both coasts. Bred and grown by Seed Junky Genetics’ JBeezy and selected by Doja Pak, the strain fuses several well-established cultivars: ( Biscottix Sherb Bx ) x Jealousy. It can smell like a permanent marker. Others note its floral, soapy, candy and gassy funk that fully translate into the taste. It has a lingering, pungent flavour of a soapy funk with a hint of candy and floral gas tones. The potent strain smells amazing, and can support creativity or relaxation day and night. Just be careful — it’s strong."
+    "effects": [
+      "Tingly",
+      "Relaxed",
+      "Euphoric",
+      "Aroused",
+      "Calming",
+      "Creative",
+      "Happy",
+      "Hungry",
+      "Relaxing"
+    ],
+    "helps_with": [
+      "Cramps",
+      "Depression",
+      "Fatigue",
+      "PMS",
+      "PTSD",
+      "Stress"
+    ],
+    "flavours": [
+      "Candy",
+      "Citrus",
+      "Diesel",
+      "Fruity",
+      "Sour",
+      "Sweet"
+    ],
+    "type": "Hybrid",
+    "thc": 17.0,
+    "description_sm": "Sweet candy and citrus flavours match a relaxed, creative and euphoric high.",
+    "description_md": "Permanent Marker offers a strong, lingering flavour of soapy funk with candy and floral gas notes, supporting creativity and relaxation day or night.",
+    "description_lg": "Permanent Marker is a modern award-winning strain known for its pungent aroma reminiscent of a permanent marker with floral, soapy, candy, and gassy tones. Its dense bright emerald-green and purple buds with orange hairs are visually striking. The high brings a balanced blend of lifted creativity and calming relaxation, perfect for unwinding or artistic pursuits. Noted for its sweet and sour fruity candy flavour with citrusy diesel aroma, it is also celebrated for supporting relief from conditions like chronic fatigue, mood swings, and stress."
+  },
+  {
+    "name": "GG4",
+    "akas": [
+      "Glue",
+      "Original Glue",
+      "Original Glue (Gg#4)"
+    ],
+    "terpenes": [
+      "Caryophyllene",
+      "Myrcene",
+      "Limonene"
+    ],
+    "parents": [
+      "Sour Dubble",
+      "Chems Sister"
+    ],
+    "children": [
+      "Grease Monkey",
+      "Gorilla Cookies"
+    ],
+    "aromas": [
+      "Chemical",
+      "Diesel",
+      "Earthy",
+      "Sour",
+      "Woody"
+    ],
+    "effects": [
+      "Relaxed",
+      "Sleepy",
+      "Hungry",
+      "Body High",
+      "Euphoria",
+      "Relaxing"
+    ],
+    "helps_with": [
+      "Chronic Pain",
+      "Depression",
+      "Insomnia",
+      "Muscle Spasms"
+    ],
+    "flavours": [
+      "Chemical",
+      "Chocolate",
+      "Diesel",
+      "Pine"
+    ],
+    "type": "Hybrid",
+    "thc": 20.0,
+    "description_sm": "Pungent diesel and chocolate notes complement deeply relaxing and euphoric effects.",
+    "description_md": "Known as Original Glue, this potent strain delivers heavy euphoria and body relaxation with earthy, sour, and woody aromas, ideal for restful evenings.",
+    "description_lg": "Original Glue, also known as GG4, is a multiple award-winning strain prized for its chunky, resin-covered buds and pungent earthy, sour aromas inherited from its parent strains. The high begins with uplifting euphoria, quickly ushering in deep body relaxation that leaves you feeling glued to the couch. Its rich chemical diesel flavour with chocolate undertones complements a heavy-hitting sedative effect, often chosen for alleviating chronic pain, insomnia, and muscle spasms. The dense olive green popcorn-shaped nugs feature amber hairs and frosty crystal trichomes."
+  },
+  {
+    "name": "Super Boof",
+    "akas": [
+      "Superboof",
+      "Ze Boof",
+      "Blockberry",
+      "Super Boof"
+    ],
+    "terpenes": [],
+    "parents": [
+      "Tropicana Cookies",
+      "Black Cherry Punch"
+    ],
+    "children": [
+      "Sub Zero"
+    ],
+    "aromas": [
+      "Berry",
+      "Cherry",
+      "Citrus",
+      "Earthy",
+      "Nutty",
+      "Pungent",
+      "Spicy",
+      "Cheese",
+      "Creamy",
+      "Herbal",
+      "Sour"
+    ],
+    "effects": [
+      "Giggly",
+      "Focused",
+      "Euphoric",
+      "Creative",
+      "Euphoria",
+      "Focus",
+      "Relaxing",
+      "Uplifting"
+    ],
+    "helps_with": [
+      "Chronic Pain",
+      "Depression",
+      "Fibromyalgia",
+      "Gastrointestinal Disorder",
+      "Stress",
+      "Anxiety",
+      "Inflammation"
+    ],
+    "flavours": [
+      "Berry",
+      "Cherry",
+      "Citrus",
+      "Fruity",
+      "Orange",
+      "Sour",
+      "Sweet",
+      "Creamy",
+      "Sugary"
+    ],
+    "type": "Hybrid",
+    "thc": 25.0,
+    "description_sm": "Sweet berry and cherry flavours blend with uplifting and relaxed feelings.",
+    "description_md": "Super Boof boasts juicy sweet cherry and berry flavours with nutty, sour citrus aromas, delivering a giggly, creative and relaxing high.",
+    "description_lg": "Super Boof, also called Blockberry, is an evenly balanced hybrid cherished for its chunky, deep green and purple-dappled buds with silver calyxes. Its sweet and fruity cherry berry flavours and nutty, sour citrus aroma set the scene for effects that bring both cerebral stimulation and physical relaxation. The high instils creative focus, uplifting energy, followed by a relaxed, giggly haze. Highly regarded among connoisseurs, it has won multiple top honours in flower and hash categories and is known to support conditions such as chronic pain, stress, fibromyalgia, and gastrointestinal issues."
+  },
+  {
+    "name": "Granddaddy Purple",
+    "akas": [
+      "Grand Daddy Purp",
+      "Granddaddy Purple Kush",
+      "Granddaddy Purps",
+      "GDP",
+      "Grandaddy Purple",
+      "Grandaddy Purp",
+      "Granddaddy Purple",
+      "Grand Daddy Purple"
+    ],
+    "terpenes": [
+      "Myrcene",
+      "Pinene",
+      "Caryophyllene"
+    ],
+    "parents": [
+      "Skunk 1",
+      "Mendocino Purps"
+    ],
+    "children": [
+      "Purple Punch",
+      "Cherry Pie"
+    ],
+    "aromas": [
+      "Berry",
+      "Earthy",
+      "Grape",
+      "Sweet"
+    ],
+    "effects": [
+      "Sleepy",
+      "Relaxed",
+      "Hungry",
+      "Euphoria",
+      "Happy",
+      "Relaxing"
+    ],
+    "helps_with": [
+      "Arthritis",
+      "Chronic Pain",
+      "Depression",
+      "Insomnia",
+      "Loss of Appetite",
+      "Migraines",
+      "Muscle Spasms",
+      "PTSD",
+      "Stress"
+    ],
+    "flavours": [
+      "Berry",
+      "Fruity",
+      "Grape",
+      "Pine",
+      "Sweet"
+    ],
+    "type": "Hybrid",
+    "thc": 28.0,
+    "description_sm": "Berry-sweet flavour meets a relaxing and euphoric cerebral buzz.",
+    "description_md": "Granddaddy Purple offers a dreamy cerebral euphoria and deep relaxation, perfect for easing pain, stress, and insomnia while boasting rich berry and grape flavours.",
+    "description_lg": "Granddaddy Purple is a celebrated strain known for its deep purple buds dusted with white resin and fiery orange hairs. It delivers a potent blend of cerebral euphoria and physical relaxation, often leaving users in a dreamy state while fixed in place. Its complex grape and berry aroma and flavour, combined with a soothing effect, make it ideal for managing chronic pain, muscle spasms, insomnia, and stress. A favourite among growers for its hefty yields and relatively quick flowering time, Granddaddy Purple is a revered classic with enduring popularity."
+  },
+  {
+    "name": "Ice Cream Cake",
+    "akas": [
+      "Ice Cream Cake"
+    ],
+    "terpenes": [
+      "Caryophyllene",
+      "Limonene",
+      "Linalool"
+    ],
+    "parents": [
+      "Wedding Cake",
+      "Gelato 33"
+    ],
+    "children": [
+      "Purple Push Pop",
+      "Ice Cream Gelato"
+    ],
+    "aromas": [
+      "Cheese",
+      "Creamy",
+      "Earthy",
+      "Nutty",
+      "Pungent"
+    ],
+    "effects": [
+      "Sleepy",
+      "Relaxed",
+      "Hungry",
+      "Body High",
+      "Relaxing",
+      "Uplifting"
+    ],
+    "helps_with": [
+      "Chronic Pain",
+      "Depression",
+      "Insomnia",
+      "Nausea"
+    ],
+    "flavours": [
+      "Cheesy",
+      "Creamy",
+      "Nutty",
+      "Sweet"
+    ],
+    "type": "Hybrid",
+    "thc": 26.0,
+    "description_sm": "Creamy and sweet with relaxing and sedating effects for evening use.",
+    "description_md": "Ice Cream Cake offers a sedating, relaxing high with creamy, sweet vanilla flavours, ideal for unwinding at night and easing pain, sleep troubles, and anxiety.",
+    "description_lg": "Ice Cream Cake is a rare hybrid strain famed for its rich creamy flavour enhanced by sweet vanilla and sugary dough notes. The high begins with cerebral uplift and happiness before gently cascading into deep physical relaxation and sedation. Its small, dense, forest green nugs coated with frosty trichomes hint at the luxurious experience within. Perfect for evening use, Ice Cream Cake soothes chronic pain, insomnia, and anxiety, making it a popular choice for those seeking calm and restfulness after a long day."
+  },
+  {
+    "name": "Sour Diesel",
+    "akas": [
+      "Sour D",
+      "Sour Deez",
+      "Sour Diesel"
+    ],
+    "terpenes": [
+      "Caryophyllene",
+      "Myrcene",
+      "Limonene"
+    ],
+    "parents": [
+      "Chemdawg",
+      "Super Skunk"
+    ],
+    "children": [
+      "Headband",
+      "Death Star"
+    ],
+    "aromas": [
+      "Dank",
+      "Diesel",
+      "Sweet"
+    ],
+    "effects": [
+      "Energetic",
+      "Talkative",
+      "Uplifted",
+      "Creative",
+      "Euphoria",
+      "Happy",
+      "Uplifting"
+    ],
+    "helps_with": [
+      "Anxiety",
+      "Bipolar Disorder",
+      "Chronic Pain",
+      "Depression",
+      "Fatigue",
+      "Headaches",
+      "Loss of Appetite",
+      "Migraines",
+      "Nausea",
+      "PTSD",
+      "Stress"
+    ],
+    "flavours": [
+      "Candy",
+      "Citrus",
+      "Dank",
+      "Diesel",
+      "Skunky",
+      "Sweet"
+    ],
+    "type": "Hybrid",
+    "thc": 24.0,
+    "description_sm": "Energising, uplifting, and bright with a pungent diesel aroma.",
+    "description_md": "Sour Diesel delivers a fast-acting, cerebral high that stimulates creativity and energy, with a pungent diesel and citrus aroma perfect for daytime use.",
+    "description_lg": "Sour Diesel is a legendary strain recognised for its invigorating cerebral effects that spark creativity and uplift the mood without causing couch lock. Its distinctive pungent aroma reminiscent of diesel fuel with citrus notes complements dense light green buds adorned with orange hairs. First popularised in the early 1990s, Sour Diesel remains a favourite for alleviating anxiety, depression, chronic pain, and fatigue, making it ideal for those seeking an energising yet balanced experience to start their day."
+  },
+  {
+    "name": "Runtz",
+    "akas": [
+      "Runtz OG",
+      "Gelato Zkittlez",
+      "Rainshadow Runtz",
+      "Runtz"
+    ],
+    "terpenes": [
+      "Caryophyllene",
+      "Limonene",
+      "Myrcene"
+    ],
+    "parents": [
+      "Gelato"
+    ],
+    "children": [
+      "Pink Runtz",
+      "Blue Nerds"
+    ],
+    "aromas": [
+      "Earthy",
+      "Herbal",
+      "Sour",
+      "Spicy",
+      "Sweet",
+      "Tropical"
+    ],
+    "effects": [
+      "Talkative",
+      "Giggly",
+      "Relaxed",
+      "Calming",
+      "Hungry",
+      "Relaxing",
+      "Sleepy",
+      "Uplifting"
+    ],
+    "helps_with": [
+      "Anxiety",
+      "Chronic Pain",
+      "Insomnia",
+      "Nausea",
+      "Stress"
+    ],
+    "flavours": [
+      "Fruity",
+      "Pineapple",
+      "Spicy",
+      "Sweet",
+      "Tropical"
+    ],
+    "type": "Hybrid",
+    "thc": 20,
+    "description_sm": "Fruity and tropical flavours complement uplifting, relaxing, and calming effects.",
+    "description_md": "Runtz offers a creamy and smooth smoke paired with a euphoric, uplifting high that spreads from a calming head lift to deep physical relaxation, perfect for stress and pain relief.",
+    "description_lg": "Runtz is renowned for its fruity flavour resembling sugary candy, featuring dense grape-shaped nugs with purple undertones. It delivers a euphoric and long-lasting high starting with a calming cerebral lift, then spreading deep physical relaxation that often results in couch-lock and peaceful sleep. Awarded Leafly Strain of the Year 2020, it provides effects ideal for tackling anxiety, insomnia, chronic pain, and stress."
+  },
+  {
+    "name": "Gelato",
+    "akas": [
+      "Gelato 42",
+      "Larry Bird",
+      "Zelato",
+      "Gelato"
+    ],
+    "terpenes": [
+      "Caryophyllene",
+      "Limonene",
+      "Humulene"
+    ],
+    "parents": [
+      "Sunset Sherbert"
+    ],
+    "children": [
+      "Runtz",
+      "Biscotti"
+    ],
+    "aromas": [
+      "Blueberry",
+      "Earthy",
+      "Orange",
+      "Sweet",
+      "Citrus",
+      "Herbal",
+      "Menthol",
+      "Sour",
+      "Spicy",
+      "Vanilla",
+      "Flowery",
+      "Lemon",
+      "Pine",
+      "Woody"
+    ],
+    "effects": [
+      "Relaxed",
+      "Aroused",
+      "Euphoric",
+      "Creative",
+      "Euphoria",
+      "Focus",
+      "Happy",
+      "Relaxing",
+      "Calming",
+      "Hungry",
+      "Sleepy",
+      "Uplifting",
+      "Giggly"
+    ],
+    "helps_with": [
+      "Bipolar Disorder",
+      "Chronic Pain",
+      "Depression",
+      "Fatigue",
+      "Fibromyalgia",
+      "Headaches",
+      "Inflammation",
+      "Insomnia",
+      "Loss of Appetite",
+      "Muscle Spasms",
+      "PTSD",
+      "Nausea",
+      "Stress"
+    ],
+    "flavours": [
+      "Berry",
+      "Citrus",
+      "Lavender",
+      "Sweet",
+      "Woody",
+      "Fruity",
+      "Herbal",
+      "Menthol",
+      "Spicy",
+      "Vanilla",
+      "Cherry",
+      "Sour"
+    ],
+    "type": "Hybrid",
+    "thc": 22,
+    "description_sm": "Sweet, fruity and creamy flavours with relaxing, euphoric and uplifting effects.",
+    "description_md": "Gelato delivers a swiftly arriving euphoric head rush followed by a gentle body buzz that calms and relaxes without sedation, ideal for relieving muscle spasms, chronic pain, and fatigue.",
+    "description_lg": "Gelato is celebrated for its luscious sweet sherbet taste with notes of blueberry and citrus, complemented by a fragrant lavender and woody aroma. The buds burn with a powerful but well-balanced high beginning with an immediate cerebral uplift and joyous euphoria, then progressing into a calming body relaxation that avoids couch-lock. Its vibrant dense nugs, adorned with rich purple and orange hairs, make it a favourite for managing pain, insomnia, inflammation, and stress, offering both mental stimulation and physical ease."
+  },
+  {
+    "name": "Cereal Milk",
+    "akas": [
+      "Milk",
+      "Cereal Milk #2",
+      "Cereal Milk"
+    ],
+    "terpenes": [
+      "Caryophyllene",
+      "Limonene",
+      "Humulene"
+    ],
+    "parents": [
+      "Snowman",
+      "Y Life"
+    ],
+    "children": [
+      "Zereal",
+      "Cereal A La Mode"
+    ],
+    "aromas": [
+      "Berry",
+      "Fruity",
+      "Herbal",
+      "Spicy",
+      "Sweet"
+    ],
+    "effects": [
+      "Aroused",
+      "Relaxed",
+      "Giggly",
+      "Calming",
+      "Creative",
+      "Focus",
+      "Relaxing",
+      "Sociable",
+      "Uplifting"
+    ],
+    "helps_with": [
+      "Chronic Pain",
+      "Depression",
+      "Fatigue",
+      "Nausea",
+      "Stress"
+    ],
+    "flavours": [
+      "Berry",
+      "Creamy",
+      "Fruity",
+      "Sugary",
+      "Sweet"
+    ],
+    "type": "Hybrid",
+    "thc": 34,
+    "description_sm": "Sweet creamy and fruity flavours with calming, creative, and uplifting effects.",
+    "description_md": "Cereal Milk’s sweet, creamy flavour with hints of berries pairs with a euphoric lift that inspires creativity, sociability, and long-lasting calm ideal for relaxing days.",
+    "description_lg": "Cereal Milk combines a genuinely unique sweet milk and ice cream flavour reminiscent of cereal milk, accompanied by fruity berry undertones and a subtle herbal aroma. Its slow-building high begins with a euphoric mental lift that fosters happiness, creativity, and sociability. This is followed by a calm, focused state that endures for hours, making it an excellent companion for relaxed weekends or mindful socialising. The buds are dense and heart-shaped with a frosty coating, making it as appealing visually as it is in effect."
   }
 ]
